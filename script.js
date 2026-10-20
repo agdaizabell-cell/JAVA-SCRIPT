@@ -225,3 +225,80 @@ else if (dia === 7) {
 else {
   console.log("Dia inválido");
 }
+
+// AULA PROFESSOR
+
+let idade_dirigir = 15
+let tem_cnh = true
+let tem_carro = false
+
+if(idade_dirigir >= 18 && tem_cnh == true && tem_carro == true){
+    console.log("Você pode dirigir")
+}
+else{
+    console.log("Você não pode dirigir!")
+}
+
+
+let é_professor = true
+let é_aluno = false
+
+if(é_professor == true || é_aluno == true){
+    console.log("Você tem direito a meia entrada")
+} else{
+    console.log("Você não tem direito a meia entrada!")
+}
+
+// && = e
+// || = ou 
+
+// ATIVIDADE
+
+// 1 - NUMERO DENTRO INTERVALO
+
+let valor= 51
+
+
+if(valor >= 10 && valor <= 50){
+    console.log("seu numEro esta entre 10 e 50")
+}else{
+    console.log("seu numero esta fora do intervalo")
+}
+
+// ELEGIBILIDADE PARA ESTAGIO
+
+let idade1 = 17
+
+if( idade1 > 16 && idade1 <= 26){
+    console.log("voce atende ao requisito")
+} else{
+    console.log ("voce nao atende aos requisitos")
+}
+
+// FRETE GRATIS
+
+let valor_compra = 100
+let E_assinante = false
+
+if(valor_compra >= 200 || E_assinante == true){
+    console.log("voce tem direito a frete gratis")
+} else{
+    console.log("voce nao tem direitos a frete gratis")
+}
+
+// DIA DE DESCANSO
+
+let dias_da_semana = "segunda"
+
+if( dias_da_semana == "sabado" || dias_da_semana == "domingo"){
+    console.log("fim de semana")
+} else{
+    console.log("dia util")
+}
+
+// PROMOCAO ESPECIAL
+
+let valor = 150
+let desconto = 
+
+
