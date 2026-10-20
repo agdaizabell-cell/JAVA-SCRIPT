@@ -138,6 +138,7 @@ if (notas >=7){
 }else{  
     console.log("reprovado💩")}
 
+
 // COMPARACAO DE DOIS NUMEROS
 
 let numero1 = 1
@@ -153,9 +154,6 @@ else if(numero1 = numero2){
     console.log(`os dois numeros são iguais`)
 }
 
-
-
-
 //VERIFICACAO DE SENHA
 let senha_senai = "senai123"
 // const senha_senai = "senha123"
@@ -167,24 +165,63 @@ if(senha_senai == "senai123"){
 }
 
 
-// PARTE2 - MULTIPLOS CAMINHOS
+// PARTE2 - MULTIPLOS CAMINHOS - CLASSIFICAÇÃO DE TEMPERATURA
 
-let tempo = 18 + "°C"
-let tempo2 = 18 + "°C"
-let tempo3 = 27 + "°C"
+let tempo = 11
 
-if (tempo < 18 + "°C"){
-    console.log(`esta frio🥶`)
+if (tempo < 18){
+    console.log(`frio🥶`)}
+
+else if (tempo <= 27){
+    console.log(`Agdradavel😍`)
 }
 
-if (tempo2 > 18 + "°C"){
-
-    console.log(`Agdradavel`)
+else{
+console.log(`quente🔥`)
 }
 
-else if(tempo3 < 27 + "°C"){
-    console.log(`quente🔥`)
+//CLASSIFICAÇÃO DE NOTA
+
+let nota = 5
+
+if (nota > 8 ){
+    console.log(`Excelente😍`)
+}
+else if (nota >= 7){
+    console.log(`Bom👍`)
+}
+else if (nota >= 5){
+    console.log(`regular👌`)
+}
+else{ 
+    console.log("insuficiente😒")
 }
 
+//DIAS DA SEMANA
 
+const dia = 4;
 
+if (dia === 1) {
+  console.log("Domingo");
+} 
+else if (dia === 2) {
+  console.log("Segunda-feira");
+} 
+else if (dia === 3) {
+  console.log("Terça-feira");
+} 
+else if (dia === 4) {
+  console.log("Quarta-feira");
+} 
+else if (dia === 5) {
+  console.log("Quinta-feira");
+} 
+else if (dia === 6) {
+  console.log("Sexta-feira");
+} 
+else if (dia === 7) {
+  console.log("Sábado");
+} 
+else {
+  console.log("Dia inválido");
+}
